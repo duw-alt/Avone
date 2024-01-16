@@ -1,0 +1,181 @@
+body {
+  padding-top: 110px;
+  font-family: var(--font-family-karla);
+} 
+
+.container-xl {
+  transition: 0.4s;
+}
+
+a {
+  text-decoration: none;
+  color: black !important;
+}
+
+.default-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: 2px solid var(--primary-color);
+  font-size: 13px;
+  font-weight: bold;
+  padding: 8px 28px;
+  transition: 0.4s;
+}
+
+.default-button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+/* ! NavBar START */
+.header .row {
+  height: 70px;
+}
+
+.bi {
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bi-suit-heart-fill {
+  color: red;
+}
+
+.nav-link, .hot-line {
+  transition: 0.4s;
+  font-size: 14px;
+}
+
+.nav-item a, .hot-line {
+  color: black !important;
+}
+/* ! NavBar END */
+
+
+/* ! Go Up Button START */
+.go-up-button-wrap {
+  position: absolute;
+  bottom: 50px;
+  right: 40px;
+  position: fixed;
+  z-index: 999;
+}
+
+.go-up-button {
+  height: 40px;
+  width: 40px;
+  background-color: lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bi-arrow-up {
+  font-size: 25px;
+  margin: 0;
+  color: white !important;
+}
+
+/* ! Go Up Button END */
+
+
+/* ! Page Title section START */
+.page-title {
+  font-size: 13px;
+}
+.page-title p {
+  margin-left: 5px;
+}
+.page-title a {
+  color: black;
+  margin-right: 5px;
+}
+/* ! Page Title section END */
+
+
+/* ! Footer section START */
+.footer-container {
+  background-image: url(../images/footer-bg.webp);
+  object-fit: cover;
+  background-position: center bottom;
+  font-size: 13px;
+  color: white;
+  height: 400px;
+  padding: 50px 0px;
+  margin-top: 50px;
+}
+
+.footer-container h5 {
+  margin-bottom: 10px;
+}
+
+.footer-container a {
+  color: white !important;
+}
+
+.footer-wrap h5 {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: var(--font-family-noto);
+}
+
+.footer-wrap .row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted white;
+}
+
+.footer-wrap .row .col-6 {
+  max-width: 250px;
+  flex: 1;
+}
+
+.icons-container .bi {
+  transition: 0.3s;
+}
+
+.icons-container .bi-facebook:hover {
+  color: rgb(8, 102, 255);
+}
+
+.icons-container .bi-twitter:hover {
+  color: rgb(29, 161, 242);
+}
+
+.icons-container .bi-pinterest:hover {
+  color: rgb(230, 0, 35);
+}
+
+.icons-container .bi-instagram:hover {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+}
+
+.contact-us-wrap div, .newsletter-wrap div {
+  margin-bottom: 20px;
+}
+
+.newsletter-wrap input {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 170px;
+}
+
+.newsletter-wrap button {
+  border: none;
+  background-color: rgb(245, 232, 177);
+  padding: 10px 20px;
+  color: black;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.newsletter-wrap button:hover {
+  scale: 1.05;
+}
+/* ! Footer section END */

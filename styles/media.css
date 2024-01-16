@@ -1,0 +1,71 @@
+/* ! Media START */
+@media (min-width: 1400px) {
+  .nav-link {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width:1200px) and (max-width: 1399px){
+  .nav-link {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width:768px) and (max-width: 1199px) {
+  .nav-link {
+    margin-left: 60px;
+  }
+  .rare-and-special-plants-wrap img {
+    min-height: 338px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width:768px) {
+  .carousel-caption h5 {
+    font-size: 25px !important;
+    margin-top: 35px;
+  }
+  .no-garden-wrap h5 {
+    font-size: 25px !important;
+  }
+  .no-garden-text-wrap {
+    margin: 20px 0px !important;
+  }
+  .blocks-row :nth-child(2) {
+    align-self: stretch;
+  }
+  .rare-and-special-plants-wrap .text-wrap {
+    margin: 0 10px;
+    padding: 0 10px;
+    width: 100%;
+    font-size: 14px;
+  }
+  .rare-and-special-plants-wrap .text-wrap h3 {
+    font-size: 22px;
+  }
+  .page-content {
+    margin-bottom: 20px;
+  }
+  .about-us-info p {
+    width: 480px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .newsletter-wrap input {
+    width: 90%;
+  }
+  .newsletter-wrap button {
+    width: 60%;
+    padding: 4%;
+  }
+  .icons-container .bi {
+    display: none;
+  }
+  .contact-us-wrap :nth-child(4) .fw-bold {
+    display: block;
+  }
+}
+/* ! Media END */

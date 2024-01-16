@@ -1,0 +1,34 @@
+/* ! My Account Header START */
+.my-account-header {
+  font-family: var(--font-family-noto);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+/* ! My Account Header END */
+
+
+
+/* ! My Account Content START */
+.my-account-content .fw-bold {
+  font-family: var(--font-family-noto);
+  font-size: 15px;
+}
+.log-in-container, .new-costumer-container{
+  padding: 40px;
+  border: 0.8px solid rgb(238, 238, 238);
+  height: 100%;
+  max-width: 1000px;
+  font-size: 14px;
+}
+.log-in-container input{
+  margin-bottom: 15px;
+  padding: 8px 18px;
+  outline: none;
+  border: 0.8px solid rgb(221, 221, 221);
+  width: 100%;
+}
+.my-account-content .forgot-your-password:hover {
+  color: rgb(247, 117, 117);
+}
+/* ! My Account Content END */

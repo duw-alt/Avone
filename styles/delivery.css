@@ -1,0 +1,35 @@
+/* ! Delivery Content section START */
+.delivery-content {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.header-title {
+  font-size: 20px;
+  font-family: var(--font-family-noto);
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.delivery p, .returns :nth-child(1) {
+  font-family: var(--font-family-noto);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.delivery-content .row {
+  height: 400px;
+  
+}
+img {
+  object-fit: cover;
+  object-position: 0% 88% ;
+}
+/* ! Delivery Content section END */
+
+
+
+
+
+
+

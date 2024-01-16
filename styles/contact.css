@@ -1,0 +1,41 @@
+/* ! Contact Us Content START */
+.contact-us-content .header {
+  font-family: var(--font-family-noto);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.contact-us-content .content {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.contact-form input, textarea{
+  border: 0.8px solid rgb(221, 221, 221);
+  padding: 8px 18px;
+  margin-bottom: 15px;
+  outline: none;
+}
+.contact-details .wrap{
+  background-color: rgb(233, 232, 232);
+  padding: 30px;
+  font-size: 14px;
+}
+
+/* ! Contact Us Content END */
+
+
+
+/* ! Google Map START */
+.google-map {
+  padding-bottom: 40%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+/* ! Google Map END */

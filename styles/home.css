@@ -1,0 +1,195 @@
+/* ! Banner Slider START */
+.carousel-item img {
+  min-height: 380px;
+  object-fit: cover;
+}
+
+.carousel-caption h5 {
+  font-family: var(--font-family-noto);
+  font-weight: 700;
+  font-size: 47px;
+  margin-bottom: 10px;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.banner-caption-1 {
+  top: 6%;
+  position: absolute;
+  color: black;
+}
+
+.banner-caption-2 {
+  top: 25%;
+  right: 15%;
+  position: absolute;
+  text-align: end;
+}
+
+.banner-caption-3 {
+  top: 30%;
+  position: absolute;
+  color: black;
+}
+/* ! Banner Slider END */
+
+
+
+/* ! Blocks Section START */
+.no-garden-wrap {
+  background-color: rgb(176, 204, 153);
+  padding: 30px;
+  color: white;
+}
+
+.no-garden-text-wrap {
+  margin: 60px 0px;
+}
+
+.no-garden-wrap h5 {
+  font-family: var(--font-family-noto);
+  font-size: 30px;
+  min-width: 180px;
+  font-weight: 700;
+}
+
+.no-garden-wrap p {
+  font-size: 14px;
+}
+
+.blocks-row .col-12 :nth-child(1){
+  position: relative;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.shop-plants-btn {
+  position: absolute;
+  bottom: 40px;
+  right: 40%;
+  border: none;
+  background-color: white;
+  font-size: 15px;
+  padding: 10px 20px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.shop-plants-btn:hover {
+  scale: 1.05;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+}
+
+.blocks-row .col-12:hover :nth-child(1) img {
+  scale: 1.1;
+}
+/* ! Blocks Section END */
+
+
+
+/* ! Special Plants Slider section START */
+.special-plants-section-wrap .header-row {
+  font-size: 22px;
+  padding: 20px 0;
+  color: rgb(102, 102, 102);
+}
+
+.special-plants-section-wrap .header-row div{
+  position: relative;
+}
+.special-plants-section-wrap .header-row :nth-child(1):before{
+  content: '';
+  position: absolute;
+  background-color: rgb(103, 126, 82);
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+}
+
+.special-plants-section-wrap .header-row div:hover:nth-child(2):before,
+.special-plants-section-wrap .header-row div:hover:nth-child(3):before  {
+  content: '';
+  position: absolute;
+  background-color: rgba(103, 126, 82, 0.4);
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+}
+
+.special-plants-section-wrap .details {
+  font-size: 14px;
+}
+
+.special-plants-section-wrap .details :nth-child(1){
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.slider-img {
+  transition: 0.5s;
+}
+.slider-img:hover{
+  scale: 1.05;
+}
+/* ! Special Plants Slider section END */
+
+
+
+/* ! Rare and special plants section START */
+.rare-and-special-plants-wrap .section-wrap {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.rare-and-special-plants-wrap .text-wrap {
+  margin: 0 25px;
+  padding: 20px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.rare-and-special-plants-wrap .text-wrap h3 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.rare-and-special-plants-wrap .text-wrap button {
+  margin-top: 10px;
+}
+
+/* ! Rare and special plants section END */
+
+
+
+/* ! Icons section START */
+.icons-header-wrap h3{
+  font-family: var(--font-family-noto);
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.icons-wrap img {
+  height: 70px;
+}
+
+.icons-wrap {
+  font-size: 14px;
+  height: 200px;
+}
+
+.icons-wrap h5 {
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 10px;
+}
+/* ! Icons section END */
+
+
