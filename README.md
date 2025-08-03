@@ -2,6 +2,8 @@
 
 A simple `HTML` and `CSS` website with multiple pages and full responsivity using `Bootstrap`.
 
+![preview](preview.png)
+
 ---
 
 During this project I gained a lot of experience as a begginer.  
