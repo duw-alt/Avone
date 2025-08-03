@@ -2,7 +2,7 @@
 
 A simple `HTML` and `CSS` website with multiple pages and full responsivity using `Bootstrap`.
 
-![website-preview](preview.png)
+<img width="3488" height="1813" alt="preview" src="https://github.com/user-attachments/assets/04237100-d25c-4eb4-807e-594fc9796729" />
 
 ---
 
